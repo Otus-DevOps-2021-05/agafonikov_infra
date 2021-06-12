@@ -6,7 +6,7 @@ on:
   pull_request:
     types: [opened, ready_for_review, push]
 
-jobs
+jobs:
   add-reviews:
     runs-on: ubuntu-latest
     steps:
