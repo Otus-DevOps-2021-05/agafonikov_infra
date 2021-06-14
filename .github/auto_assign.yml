@@ -1,0 +1,13 @@
+# Set to true to add assignees to pull requests
+addAssignees: true
+
+addReviewers: true
+
+numberOfReviewers: 0
+
+# A list of reviewers to be added to pull requests (GitHub user name)
+reviewers:
+  - mrgreyves
+
+assignees:
+  - mrgreyves
