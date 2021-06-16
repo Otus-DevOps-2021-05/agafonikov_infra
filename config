@@ -1,0 +1,10 @@
+### Yandex Cloud bastion host
+Host bastion-host
+				HostName 178.154.203.29
+				User appuser
+
+### Yandex Cloud internal host
+Host someinternalhost
+				HostName 10.128.0.22
+				User appuser
+				ProxyJump bastion-host
