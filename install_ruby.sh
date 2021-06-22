@@ -4,4 +4,4 @@ apt update
 apt install git
 apt install -y ruby-full
 
-apt install ruby-bundler build-essential
+apt install -y ruby-bundler build-essential
