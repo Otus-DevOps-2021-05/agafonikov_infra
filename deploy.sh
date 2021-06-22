@@ -1,8 +1,6 @@
 #!/bin/bash
 
-cd ~
-# Правил версии гемов, чтобы можно было запустить приложение без ошибок
-git clone -b monolith https://github.com/agafonikov/reddit.git
+git clone -b monolith https://github.com/express42/reddit.git
 git checkout actual-gems
 cd reddit && bundle install
 
