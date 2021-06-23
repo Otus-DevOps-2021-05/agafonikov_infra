@@ -15,3 +15,12 @@ someinternalhost_IP = 10.128.0.22
 
 ### Чтобы не ругался на сертификат
 DNS_IP = 178.154.203.29.sslip.io
+
+# cloud_app
+## ip
+testapp_IP = 178.154.247.51
+testapp_port = 9292
+
+## Доп. задание
+Команда лежит в yc-init.sh
+Конфиг в ya-app.yaml
